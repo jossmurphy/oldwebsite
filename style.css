@@ -29,3 +29,10 @@ body{
     margin-right:auto;
     width:50%;
 }
+
+footer {
+    background-color: #000;
+    color: #fff;
+    font-weight: lighter;
+    padding: 1vh;
+}

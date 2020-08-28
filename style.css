@@ -12,11 +12,35 @@ body{
  font-size: medium;
 }
 
+
 .nav-item a{
     padding: 3px 15px;
     font-weight:bold;
     text-decoration: none;
     color: #000;
+}
+
+.nav-name{
+    font-weight:bolder;
+    font-size: large;
+    text-decoration: none;
+    color: #000;
+    justify-content: flex-start;
+    margin-right: auto;
+    letter-spacing:0.25em;
+}
+
+.nav-hamburger{
+    background-color:transparent;
+    border:0;
+    color:#000;
+    font-size:20px;
+    display:none;
+    margin-left:auto;
+}
+
+.nav-hamburger:hover{
+    color:#EA4B4D;
 }
 
 .nav-item a:hover{
@@ -35,4 +59,34 @@ footer {
     color: #fff;
     font-weight: lighter;
     padding: 1vh;
+}
+.burger div{
+    width:25px;
+    height:5px;
+    color:black;
+    margin:5px;
+}
+
+@media screen and (max-width: 750px) {
+
+    .nav-item{
+        position:absolute;
+        right:0px;
+        height:92vh;
+        top:8vh;
+        display
+
+    }
+
+    .nav-name{
+        display:flex;
+    }
+
+    .nav-desktop.show{
+        display:flex;
+    }
+
+    .nav-hamburger{
+        display:block;
+    }
 }

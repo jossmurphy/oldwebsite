@@ -15,14 +15,14 @@ body{
 }
 
 .nav-desktop{
- justify-content: flex-end;
- flex-wrap: wrap;
- margin-left: auto;
- list-style-type: none;
- font-size: medium;
- display:flex;
- flex-direction: row;
- margin-top: 25px;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+    margin-left: auto;
+    list-style-type: none;
+    font-size: medium;
+    display:flex;
+    flex-direction: row;
+    margin-top: 25px;
 }
 
 .nav-item a{
@@ -108,7 +108,8 @@ footer {
     .nav-active{
         transform:translateX(0%);
         transition: transform 0.5s ease-in;
-
+        margin-top:0;
+        padding:20px;
     }
 
 

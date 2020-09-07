@@ -153,10 +153,10 @@
 @media screen and (max-width:600px){
     /*mobile*/
     #fruit-fly{
-        width:95vw;
+        width:100vw;
         height:auto;
-        transform:translateX(0%);
-        transform:translateY(0vw);
+        transform:scaleX(-1);
+        transform:translatex(-2vw);
         position:relative;
         z-index:-1;
         margin-top:0;
@@ -167,39 +167,35 @@
     #headshot{
         order:2;
         display:block;
-        margin-left:auto;
-        margin-right:auto;
-        transform:translateX(-13vw);
+        margin-left:4vw;
         max-width:500px;
     }
 
     #intro {
         position:relative;
-        text-align:center;
+        text-align:left;
         display:flex;
         flex-direction:column;
         margin-left:auto;
         margin-right:auto;
-        transform:translateY(40vw);
+        transform:translateY(53vw);
     
     }
 
     .home_content{
-        
         display:flex;
         flex-direction:column;
         justify-content:center;
-        width:100vw;
-        margin-left:auto;
+        width:120vw;
+        margin-left:4vw;
         margin-right:auto;
         position:relative;
         top:0;
-        transform:translateX(4%);
+        transform:translateX(0%);
     }
 
     .buttons{
-        margin-left:auto;
-        margin-right:auto;
+        margin-left:1vw;
     }
 
 

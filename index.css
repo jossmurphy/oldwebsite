@@ -1,7 +1,7 @@
 #fruit-fly{
     width:100vw;
     height:auto;
-    transform:translateX(39%);
+    transform:translateX(45%);
     position:relative;
     z-index:-1;
 }
@@ -14,18 +14,21 @@
     
 }
 
-.home_content{
-    position:relative;
-    top:50%;
-    -ms-transform: translateY(-50%);
-    transform:translateY(-70%);
-}
+
 #headshot{
-    margin-bottom:12px;
+    margin-bottom:0px;
     margin-top:15px;
+    min-width:100px;
+    max-height:3oopx;
     width:10vw;
     height:auto;
     border-radius:1vw;
+    background-color:#E0E0E0;
+    background-image: url(images/index/transheadshot2.png);
+    background-size:180%;
+    background-position-x:60%;
+    background-position-y:40%;
+    background-repeat:no-repeat;
 }
 
 #intro{
@@ -56,6 +59,7 @@
 #intro p{
     margin:2px;
     margin-bottom:10px;
+    font-size:15px;
 }
 
 .home_content {
@@ -63,9 +67,14 @@
     flex-direction:column;
     justify-content:center;
     align-items:left;
-    width:40vw;
+    width:50vw;
     margin-left:5vw;
+    position:relative;
+    top:50%;
+    -ms-transform: translateY(-50%);
+    transform:translateY(-70%);
 }
+
 
 .buttons{
     display:flex;
@@ -110,4 +119,87 @@
 .fprojects{
     background-color: lightblue;
     height:200px;
+}
+
+
+
+@media screen and (max-width:1160px){
+    /* pic on top*/
+    #intro{
+        display:flex;
+        flex-direction:column;
+    }
+
+    #headshot{
+        margin-bottom:0px;
+        margin-left: 20px;
+        min-width:100px;
+        height:20vh;
+        width:150px;
+        border-radius:1vw;
+        background-color:#E0E0E0;
+        background-image: url(images/index/transheadshot2.png);
+        background-size:180%;
+        background-position-x:60%;
+        background-position-y:40%;
+        background-repeat:no-repeat;
+    }
+
+    .home_content {
+        width:70vw;
+    }
+}
+
+@media screen and (max-width:600px){
+    /*mobile*/
+    #fruit-fly{
+        width:95vw;
+        height:auto;
+        transform:translateX(0%);
+        transform:translateY(0vw);
+        position:relative;
+        z-index:-1;
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+    #headshot{
+        order:2;
+        display:block;
+        margin-left:auto;
+        margin-right:auto;
+        transform:translateX(-13vw);
+        max-width:120px;
+    }
+
+    #intro {
+        position:relative;
+        text-align:center;
+        display:flex;
+        flex-direction:column;
+        margin-left:auto;
+        margin-right:auto;
+        transform:translateY(40vw);
+    
+    }
+
+    .home_content{
+        
+        display:flex;
+        flex-direction:column;
+        justify-content:center;
+        width:100vw;
+        margin-left:auto;
+        margin-right:auto;
+        position:relative;
+        top:0;
+        transform:translateX(10%);
+    }
+
+    .buttons{
+        margin-left:auto;
+        margin-right:auto;
+    }
+
+
 }

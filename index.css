@@ -11,7 +11,7 @@
     width:100vw;
     overflow-x:hidden;
     overflow-y:hidden;
-    
+    max-height:80vh;
 }
 
 
@@ -72,7 +72,7 @@
     position:relative;
     top:50%;
     -ms-transform: translateY(-50%);
-    transform:translateY(-70%);
+    transform:translateY(-75%);
 }
 
 
@@ -155,20 +155,20 @@
     #fruit-fly{
         width:100vw;
         height:auto;
-        transform:scaleX(-1);
         transform:translatex(-2vw);
         position:relative;
         z-index:-1;
         margin-top:0;
         margin-left:auto;
         margin-right:auto;
+        transform:scaleX(-1);
     }
 
     #headshot{
-        order:2;
         display:block;
         margin-left:4vw;
         max-width:500px;
+        height:40vw;
     }
 
     #intro {
@@ -178,7 +178,7 @@
         flex-direction:column;
         margin-left:auto;
         margin-right:auto;
-        transform:translateY(53vw);
+        transform:translateY(8vw);
     
     }
 
@@ -195,8 +195,15 @@
     }
 
     .buttons{
-        margin-left:1vw;
+        margin-left:0vw;
     }
 
+    .intro{
+        height:100vh;
+        width:100vw;
+        overflow-x:hidden;
+        overflow-y:hidden;
+        max-height:80vh;
+    }
 
 }

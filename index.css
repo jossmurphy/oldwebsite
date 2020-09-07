@@ -159,6 +159,7 @@
         transform:translateY(0vw);
         position:relative;
         z-index:-1;
+        margin-top:0;
         margin-left:auto;
         margin-right:auto;
     }
@@ -169,7 +170,7 @@
         margin-left:auto;
         margin-right:auto;
         transform:translateX(-13vw);
-        max-width:120px;
+        max-width:500px;
     }
 
     #intro {
@@ -193,7 +194,7 @@
         margin-right:auto;
         position:relative;
         top:0;
-        transform:translateX(10%);
+        transform:translateX(8%);
     }
 
     .buttons{

@@ -9,6 +9,10 @@ body{
     overflow:auto;
 }
 
+
+
+
+/* nav things*/
 .nav{
     display:flex;
     flex-direction: row;
@@ -137,8 +141,3 @@ footer {
     }
 }
 
-
-footer{
-    width:100%;
-    overflow-x:hidden;
-}

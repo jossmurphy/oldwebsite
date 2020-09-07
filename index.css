@@ -1,0 +1,113 @@
+#fruit-fly{
+    width:100vw;
+    height:auto;
+    transform:translateX(39%);
+    position:relative;
+    z-index:-1;
+}
+
+.intro{
+    height:90vh;
+    width:100vw;
+    overflow-x:hidden;
+    overflow-y:hidden;
+    
+}
+
+.home_content{
+    position:relative;
+    top:50%;
+    -ms-transform: translateY(-50%);
+    transform:translateY(-70%);
+}
+#headshot{
+    margin-bottom:12px;
+    margin-top:15px;
+    width:10vw;
+    height:auto;
+    border-radius:1vw;
+}
+
+#intro{
+    display:flex;
+    flex-direction:row;
+}
+
+#intro_text{
+    width:70%;
+    display:flex;
+    flex-direction:column;
+    margin-left:20px;
+
+}
+
+#intro h1{
+    font-size:50px;
+    margin-bottom:0px;
+    margin-top:0px;
+    font-weight:bold;
+}
+
+#intro h5{
+    margin:2px;
+    font-size:15px;
+}
+
+#intro p{
+    margin:2px;
+    margin-bottom:10px;
+}
+
+.home_content {
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:left;
+    width:40vw;
+    margin-left:5vw;
+}
+
+.buttons{
+    display:flex;
+    flex-direction:row;
+}
+
+.intro_button{
+    background-clip:padding-box;
+    padding-left:2vw;
+    padding-right:2vw;
+    padding-top:10px;
+    padding-bottom:10px;  
+    border-radius:15px;
+    margin-right:1.5vw;
+    color:rgb(255, 255, 255);
+    font-weight:bold;
+    border:none;
+    font-size:15px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+#proj_butt{
+    background-color:#EA4B4D;
+}
+#resu_butt{
+    background-color:#9BD24D;
+}
+
+.intro_button:hover{
+    cursor:pointer;
+}
+#cont_butt{
+    background-color:#F07B25;
+}
+
+.intro_button a{
+    text-decoration:none;
+    color:white;
+}
+
+
+.fprojects{
+    background-color: lightblue;
+    height:200px;
+}

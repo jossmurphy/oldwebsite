@@ -53,7 +53,7 @@
 
 #intro h5{
     margin:2px;
-    font-size:15px;
+    font-size:18px;
 }
 
 #intro p{
@@ -116,12 +116,6 @@
 }
 
 
-.fprojects{
-    background-color: lightblue;
-    height:200px;
-}
-
-
 
 @media screen and (max-width:1160px){
     /* pic on top*/
@@ -150,7 +144,7 @@
     }
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:700px){
     /*mobile*/
     #fruit-fly{
         width:100vw;
@@ -206,4 +200,15 @@
         max-height:80vh;
     }
 
+}
+
+/* PROJECTS SECTION*/
+.fprojects{
+    height:200px;
+}
+
+
+
+footer{
+    display:none;
 }

@@ -1,15 +1,22 @@
+*::-webkit-media-controls-panel {
+    display: none!important;
+    -webkit-appearance: none;
+  }
+
 .proj{
     margin:1.5vw;
     border-radius:3px;
     width: 30%;
     height:350px;
-    box-shadow: 0 4px 8px  rgba(90,90,90, 0.3);
+    box-shadow: 0 4px 8px  rgba(90,90,90, 0.4);
     z-index:-2;
     position:relative;
     display:inline-flex;
     flex-direction:column-reverse;
     
 }
+
+
 
 .projgroup{
     display:flex;
@@ -26,6 +33,7 @@
 h2{
     margin-left:20px;
     margin-bottom:5px;
+    margin-top:0px;
     color: white;
     text-shadow:0 4px 8px  rgba(0, 0, 0, 0.3);
     z-index:3;
@@ -34,16 +42,6 @@ h2{
     
 }
 
-h3{
-    margin-left:50px;
-    margin-bottom:5px;
-    color: black;
-    z-index:0;
-    font-size:28px;
-    align:center;
-
-    
-}
 
 h6{
     font-size:13px;
@@ -75,7 +73,7 @@ h6{
  
 }
 
-@media screen and (max-width:600px){
+@media screen and (max-width:700px){
     .proj{
         width:85vw;
         margin:1.5vw;
@@ -87,6 +85,13 @@ h6{
     .projgroup{
         display:flex;
         flex-direction:column;
+    }
+
+    .p-svpteens{
+        background-image: linear-gradient(to bottom, rgba(255, 255, 255, .23), rgba(0,0,20, 0.63)), url(images/index/_HC28730.jpg);
+        background-size:100%;
+        background-position-y:45%;
+        
     }
 
     h3{
@@ -172,7 +177,7 @@ h6{
 }
 
 .p-watercooler{
-    background-image: linear-gradient(to bottom, rgba(255, 255, 255, .23), rgba(0,0,20, 0.53)), url(images/projects/coding/watercooler.png);
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, .23), rgba(0,0,20, 0.43)), url(images/projects/coding/watercooler.png);
     background-size:170%;
     background-position-y: center;
     background-position-x:60%;
@@ -237,3 +242,30 @@ h6{
     align-content:flex-end;
     z-index:3;
 }
+
+
+
+
+/*main page projects*/
+
+.p-svpteens{
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, .23), rgba(0,0,20, 0.63)), url(images/index/_HC28730.jpg);
+    background-size:100%;
+    
+}
+
+.p-1A{
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, .23), rgba(0,0,20, 0.63)), url(images/index/Image\ from\ iOS\ \(22\).jpg); 
+    background-size:100%;
+}
+.p-bp{
+    background-color: #00a5f7;
+    background: -webkit-linear-gradient(left, #0079e8  0%,#00a5f7 100%);
+
+}
+.p-bp img{
+    width:100%;
+    position: relative;
+    position:bottom;
+}
+

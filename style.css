@@ -31,6 +31,11 @@ h3{
 .nav{
     display:flex;
     flex-direction: row;
+    color: #fff;
+    font-weight: lighter;
+    padding: 1vh;
+    width:100%;
+    height: 1.5rem;
 }
 
 .nav-desktop{
@@ -88,12 +93,29 @@ footer {
     display:none;
     margin-left:auto;
     transition: all 0.3s ease;
+    z-index:2;
 }
 
 .burger{
     cursor:pointer;
     margin-top:21px;
 }
+
+.oops footer{
+    position:absolute;
+    bottom:0;
+}
+
+.oops h3{
+    margin-left:0;
+}
+
+.oops .write-up{
+    text-align:center;
+    transform:translateY(100%);
+}
+
+
 
 @media screen and (max-width: 750px) {
     
@@ -128,7 +150,7 @@ footer {
     }
 
     .nav-active{
-        transform:translateX(0%);
+        transform:translateX(10%);
         transition: transform 0.5s ease-in;
         margin-top:0;
         padding:20px;
@@ -148,15 +170,24 @@ footer {
         }
     }
 
+   
     
     .toggle .line1{
-        transform: rotate(-45deg) translate(-5px,6px);
+        opacity: 0;
+        transform: rotate(-45deg) translate(-5px,0px);
+        position:fixed;
+        z-index:2;
     }
     .toggle .line2{
-        opacity: 0;
+        position:fixed;
+        z-index:2;
+        transform:translateX(-30px);
     }
     .toggle .line3{
-        transform: rotate(45deg) translate(-5px,-6px);
+        opacity: 0;
+        transform: rotate(45deg) translate(-5px,0px);
+        position:fixed;
+        z-index:2;
     }
 }
 

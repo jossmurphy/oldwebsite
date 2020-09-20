@@ -37,6 +37,7 @@
 
 h2{
     margin-left:20px;
+    margin-right:20px;
     margin-bottom:5px;
     margin-top:0px;
     color: white;
@@ -234,6 +235,7 @@ h6{
     }
 
     .p-svpteens{
+        background-attachment:initial;
         background-size:100%;
         background-position-y:45%; 
     }

@@ -8,15 +8,15 @@
     border-radius:3px;
     width: 30%;
     height:350px;
-    box-shadow: 0 4px 8px  rgba(90,90,90, 0.4);
-    z-index:-2;
-    position:relative;
-    display:inline-flex;
+    box-shadow: 0 4px 8px  rgba(90,90,90, 0.2);
+    display:flex;
     flex-direction:column-reverse;
-    
 }
 
 
+.proj:hover{
+    box-shadow: 0 4px 8px rgba(90,90,90, 0.8);;
+}
 
 .projgroup{
     display:flex;
@@ -30,13 +30,17 @@
     margin-left:20%;
 }
 
+.proj a{
+    text-decoration:none;
+
+}
+
 h2{
     margin-left:20px;
     margin-bottom:5px;
     margin-top:0px;
     color: white;
     text-shadow:0 4px 8px  rgba(0, 0, 0, 0.3);
-    z-index:3;
     font-size:28px;
     position:relative;
     
@@ -57,7 +61,6 @@ h6{
     padding-left:7px;
     padding-right:7px;
     background-clip:padding-box;  
-    z-index:3;
 }
 
 
@@ -68,54 +71,11 @@ h6{
     margin-right:20px;
     margin-bottom:20px;
     font-size:13px;
-    z-index:0;
     position:relative;
- 
 }
 
-@media screen and (max-width:700px){
-    .proj{
-        width:85vw;
-        margin:1.5vw;
-        margin-left:auto;
-        margin-right:auto;
-        z-index:-2;
-    }
-    
-    .projgroup{
-        display:flex;
-        flex-direction:column;
-    }
 
-    .p-svpteens{
-        background-image: linear-gradient(to bottom, rgba(255, 255, 255, .23), rgba(0,0,20, 0.63)), url(images/index/_HC28730.jpg);
-        background-size:100%;
-        background-position-y:45%;
-        
-    }
 
-    h3{
-        margin-right:auto;
-        margin-left:5px;
-    }
-
-}
-
-@media screen and (min-width:850px){
-    .projgroup{
-        margin-left:5%;
-        margin-right:5%;
-    }
-    
-    .proj{
-        margin:1vw;
-        z-index:-2;
-    }
-
-    .p-svpmemberresources{
-        margin-left:20%;
-    }
-}
 
 /* tech */
 .p-firefighter{
@@ -127,7 +87,6 @@ h6{
 .p-ledcube{
     overflow:hidden;
     position:relative;
-    z-index:-1;
 
 }
 
@@ -139,9 +98,7 @@ h6{
     top:50%;
     left:50%;
     transform:translateX(-50%) translateY(-50%);
-    filter:brightness(80%);
-    z-index:0;
-    
+    filter:brightness(80%);    
 }
 
 #digvideo{
@@ -153,7 +110,6 @@ h6{
     left:50%;
     transform:translateX(-45%) translateY(-50%);
     filter:brightness(80%);
-    z-index:0;
     
 }
 .p-sumobot{
@@ -167,13 +123,11 @@ h6{
 .p-zapped{
     overflow:hidden;
     position:relative;
-    z-index:-1;
 }
 
 .p-dig{
     overflow:hidden;
     position:relative;
-    z-index:-1;
 }
 
 .p-watercooler{
@@ -213,7 +167,6 @@ h6{
 .tags{
     margin-left:18px;
     margin-right:10px;  
-    z-index:3;
 }
 
 #skill{
@@ -232,19 +185,10 @@ h6{
     background:#6B2F3A;
 }
 
+
 #soft_skill{
     background:#59688f;
 }
-
-.text_proj{
-    display:flex;
-    flex-direction:column;
-    align-content:flex-end;
-    z-index:3;
-}
-
-
-
 
 /*main page projects*/
 
@@ -269,3 +213,49 @@ h6{
     position:bottom;
 }
 
+.p-website{
+    background-image: linear-gradient(to bottom, rgba(255, 255, 255, .23), rgba(0,0,20, 0.63)), url(images/index/mobile\ mockup.png); 
+    background-size:140%;
+    
+}
+
+
+@media screen and (max-width:700px){
+    .proj{
+        width:85vw;
+        margin:1.5vw;
+        margin-left:auto;
+        margin-right:auto;
+    }
+    
+    .projgroup{
+        display:flex;
+        flex-direction:column;
+    }
+
+    .p-svpteens{
+        background-size:100%;
+        background-position-y:45%; 
+    }
+
+    h3{
+        margin-right:auto;
+        margin-left:20px;
+    }
+
+}
+
+@media screen and (min-width:850px){
+    .projgroup{
+        margin-left:5%;
+        margin-right:5%;
+    }
+    
+    .proj{
+        margin:1vw;
+    }
+
+    .p-svpmemberresources{
+        margin-left:20%;
+    }
+}

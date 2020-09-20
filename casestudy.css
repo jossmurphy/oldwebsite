@@ -1,0 +1,112 @@
+body{
+    overflow-x:hidden;
+}
+
+.case_study_body h2{
+    color:black;
+    font-size:28px;
+    margin-left:3vw;
+    position:relative;
+    text-align:left;
+    text-decoration:bold;
+}
+
+.case_study_body h3{
+    color:black;
+    font-size:28px;
+    text-transform: uppercase;
+    margin-left:0;
+}
+
+.case_study_body h1{
+    font-size:100px;
+    color: white;
+    padding:0;
+    margin:0;
+    margin-left:3vw;
+    float:left;
+    position:static;
+    float:top;
+}
+
+.case_study_body section{
+    min-height:200px;
+    max-height:auto;
+    background-color:#efefef;
+    margin-top:5px;
+    margin-bottom:10px;
+    display:flex;
+    flex-direction:row;
+}
+
+.showcase_images{
+    display:flex;
+    flex-direction:row;
+    overflow:auto;
+}
+
+#showcase_img{
+    max-height:100%;
+    position:center;
+    margin:3px;
+}
+
+.case_study_body .image_gallery{
+    height:30vh
+
+}
+
+.case_study_body .write-up{
+    margin-left:4vw;
+    margin-right:3vw;
+}
+
+.cs_intro{
+    display:flex;
+    flex-direction:row;
+}
+
+.tags{
+    margin-left:18px;
+    margin-right:10px;  
+    margin-bottom:0;
+    margin-top:23px;
+
+}
+
+h6{
+    font-size:15px;
+    position:relative;
+    margin:0;
+    margin-top:5px;
+    margin-left:2px;
+    color:white;
+    display:inline-block;
+    border-radius:8px;
+    padding-top:5px;
+    padding-bottom:7px;
+    padding-left:8px;
+    padding-right:8px;
+    background-clip:padding-box;  
+}
+
+#skill{
+    background:#82b33e;
+}
+
+#language{
+    background: #EA4B4D;
+}
+
+#software{
+    background:#F07B25;
+}
+
+#feature{
+    background:#6B2F3A;
+}
+
+
+#soft_skill{
+    background:#59688f;
+}

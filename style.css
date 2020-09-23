@@ -16,6 +16,10 @@ body{
     position:relative;
 }
 
+#contactlink{
+    display:none;
+}
+
 h3{
     margin-left:6vw;
     margin-bottom:5px;

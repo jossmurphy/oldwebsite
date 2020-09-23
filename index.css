@@ -226,6 +226,10 @@
     .fprojects{
         height:7000px;
     }
+
+    body{
+        overflow-x:hidden;
+    }
 }
 
 /* PROJECTS SECTION*/
